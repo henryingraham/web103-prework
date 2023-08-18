@@ -1,0 +1,302 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background: #000000;
+  
+}
+h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  font-weight: 400;
+}
+h3 {
+  font-weight: 400;
+}
+html{
+  scroll-behavior: smooth;
+}
+span {
+  background-image: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("src/19602.jpg");
+  background-size: cover;
+}
+.button{
+  display: flex;
+  margin: 35px auto;
+  width: fit-content;
+  border: 1px solid #4d36d0;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+  letter-spacing: 0.05em;
+  background: linear-gradient(0deg, #4d36d0ba 0%, #8474fec9 100%);
+  transition: background 0.5s,  transform 0.7s;
+}
+.button:hover{
+  transform: translateY(-5px);
+  background: linear-gradient(0deg, #4d36d0 0%, #8474fe 100%);
+}
+.button2 {
+  border: 1px solid #4d36d0 !important;
+  box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be !important;
+  background: linear-gradient(0deg, #4d36d0ba 0%, #8474fec9 100%) !important;
+}
+.button2:hover{
+  transform: translateY(-5px) !important;
+  background: linear-gradient(0deg, #4d36d0 0%, #8474fe 100%) !important;
+}
+
+.btn2{
+  display: flex;
+  margin: 35px auto;
+  width: fit-content;
+  border: 1px solid #960f0f;
+  padding: 0px 40px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 0.7em 1.5em -0.5em #960f0fbe;
+  letter-spacing: 0.05em;
+  background: linear-gradient(0deg,#960f0fba 10.6%, #f70000c9 91.1%);
+  transition: background 0.5s,  transform 0.7s;
+}
+.btn2:hover{
+  transform: translateY(-5px);
+  background: linear-gradient(0deg,#960f0f 10.6%, #f70000 91.1%);
+}
+.show {
+  background-image: url("src/test.jpg");
+  background-size: cover;
+}
+.creator-section {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 40%;
+  margin: 20px;
+  border-radius: 10px;
+  background-size: cover;
+  border: 2px solid #fff;
+  transition: transform 0.5s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 20px;
+  color: #e2e2e2;
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) );
+}
+.card-content:hover {
+  box-shadow:  10px 10px 31px #0b0b0b,
+             -10px -10px 31px #2d2d2d;
+}
+.card-content h2 {
+  margin: 0 !important;
+}
+
+.card-content>div svg {
+  font-size: 30px;
+  margin: 5px
+}
+
+.creator-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  height: 100%;
+  width: calc(100% - 80px);
+  border-radius: 10px;
+  background: #00060D;
+  border: 2px solid #666666;
+}
+
+.creator-profile {
+  display: flex;
+}
+.creator-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 40px;
+
+}
+.creator-profile>img{
+  width: 50%;
+  border-radius: 10px;
+  border: 1px solid #323232;
+  background: #1f1f1f;
+  box-shadow:  -10px -10px 21px #0c0c0c,
+              10px 10px 21px #323232;
+}
+.social-link {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: background 0.5s, transform 0.5s;
+  border: 2px solid #666666;
+}
+.social-link:hover {
+  transform: translateY(-5px);
+  color: #daa520;
+  border: 2px solid #a3a3a3;
+}
+.creator-buttons{
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.add-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.add-page h1 {
+  
+}
+.addCreatorForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+}
+
+.addCreatorForm button{
+  padding: 14px 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  padding: 0.8em 1.5em 0.8em 1.2em;
+  color: white;
+  background: linear-gradient(0deg, #4d36d0 0%, rgba(132,116,254,1) 100%);
+  box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 5px;
+  width: 100%;
+}
+.addCreatorForm h3 {
+  font-size: 32px;
+}
+.field {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.field>p {
+  margin: 5px 0px;
+  font-size: 16px;
+}
+
+form input, form textarea{
+  width: calc(100% - 30px);
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  resize: none;
+}
+
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
+  .creator-section{
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .card {
+    width: 90%;
+    height: 300px;
+  }
+  .button{
+    padding: 15px 10px;
+  }
+  .creator-profile{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .creator-info{
+    padding: 20px;
+  }
+  .creator-description{
+    padding: 20px;
+  }
+  .creator-buttons{
+    gap: 20px;
+  }
+  .btn2, .button2{
+    padding: 0 20px;
+    margin: 15px 0;
+  }
+  .creator-profile>img {
+    width: 80%;
+  }
+  .addCreatorForm {
+    padding: 0 20px;
+  }
+
+}
