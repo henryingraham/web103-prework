@@ -32,7 +32,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("src/19602.jpg");
+  background-image: url("public/landing.jpg");
   background-size: cover;
 }
 .button{
@@ -82,7 +82,7 @@ span {
   background: linear-gradient(0deg,#960f0f 10.6%, #f70000 91.1%);
 }
 .show {
-  background-image: url("src/test.jpg");
+  background-image: url("public/body.jpg");
   background-size: cover;
 }
 .creator-section {
