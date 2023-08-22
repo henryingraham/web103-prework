@@ -2,7 +2,7 @@
 
 Submitted by: **Henry Ingraham**
 
-About this web app: **👉🏿 app description here**
+About this web app: **A person's top content creators can say a lot about them. Do they prefer lockpicking videos 🔒, casual art streams 🖼️, or hustle-culture TikTokers 📱? This application includes support for all CRUD operations on a List of my favorite content creators. Mobile and Desktop friendly**
 
 Time spent: **15** hours
 
@@ -36,22 +36,22 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='src/Creatorverse_Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='src/Creatorverse_Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
+GIF created with LICEcap  👉🏿 GIF tool here https://www.cockos.com/licecap/
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
-## Notes
+<!--## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
-
+-->
 ## License
 
-Copyright [👉🏿 yyyy] [👉🏿 name of copyright owner]
+Copyright © 2023 Henry Ingraham
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
