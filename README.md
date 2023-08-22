@@ -1,10 +1,10 @@
-# WEB103 Prework - *👉🏿 Name of App Here*
+# WEB103 Prework - *Creatorverse*
 
-Submitted by: **👉🏿 your name here**
+Submitted by: **Henry Ingraham**
 
 About this web app: **👉🏿 app description here**
 
-Time spent: **👉🏿 X** hours
+Time spent: **15** hours
 
 ## Required Features
 
@@ -29,13 +29,14 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [X] Mobile Friendly
+* [X] CSS styling
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<img src='src/Creatorverse_Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  👉🏿 GIF tool here
